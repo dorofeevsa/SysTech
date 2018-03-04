@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EditEmployeeDialog</class>
+ <widget class="QDialog" name="EditEmployeeDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>461</width>
+    <height>551</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Employee edit</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>441</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="leftMargin">
+     <number>5</number>
+    </property>
+    <property name="topMargin">
+     <number>5</number>
+    </property>
+    <property name="rightMargin">
+     <number>5</number>
+    </property>
+    <property name="bottomMargin">
+     <number>5</number>
+    </property>
+    <item>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="5" column="0">
+       <widget class="QLabel" name="lbl_empl_type">
+        <property name="text">
+         <string>employee_type:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="line_name">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QComboBox" name="combo_type"/>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="line_id">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>id</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="lbl_date">
+        <property name="text">
+         <string>Date of Adoption</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="lbl_name">
+        <property name="text">
+         <string>name:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLineEdit" name="line_patronymic"/>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="line_salary"/>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="line_surname"/>
+      </item>
+      <item row="7" column="1">
+       <widget class="QComboBox" name="combo_chief"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="lbl_surname">
+        <property name="text">
+         <string>surname:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="lbl_salary">
+        <property name="text">
+         <string>salary:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="lbl_empl_type_4">
+        <property name="text">
+         <string>Chief</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="lbl_name_2">
+        <property name="text">
+         <string>id:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="lbl_salary_2">
+        <property name="text">
+         <string>patronymic</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QDateEdit" name="dateEdit"/>
+      </item>
+      <item row="8" column="0">
+       <widget class="QDateEdit" name="dateEdit_salary"/>
+      </item>
+      <item row="8" column="1">
+       <widget class="QPushButton" name="salaryButton">
+        <property name="text">
+         <string>Salary Check</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="createButton">
+      <property name="text">
+       <string>CreateNew</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="updButton">
+      <property name="text">
+       <string>Upd</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTextEdit" name="txt_log"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>line_name</tabstop>
+  <tabstop>line_surname</tabstop>
+  <tabstop>line_salary</tabstop>
+  <tabstop>line_patronymic</tabstop>
+  <tabstop>combo_type</tabstop>
+  <tabstop>dateEdit</tabstop>
+  <tabstop>combo_chief</tabstop>
+  <tabstop>updButton</tabstop>
+  <tabstop>line_id</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

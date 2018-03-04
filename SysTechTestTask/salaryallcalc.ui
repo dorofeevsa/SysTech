@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableAllSalary">
+   <property name="geometry">
+    <rect>
+     <x>75</x>
+     <y>20</y>
+     <width>251</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>256</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="columnCount">
+    <number>2</number>
+   </property>
+   <column>
+    <property name="text">
+     <string>Сотрудник</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Зарплата</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
