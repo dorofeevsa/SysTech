@@ -1,9 +1,9 @@
 #include <QString>
 #include <QtTest>
-#include "../../SysTechTestTast/corecontroller.h"
-#include "../../SysTechTestTast/dbcontroller.h"
-#include "../../SysTechTestTast/employee.h"
-#include "../../SysTechTestTast/employeeconfig.h"
+#include "../../SysTechTestTask/corecontroller.h"
+#include "../../SysTechTestTask/dbcontroller.h"
+#include "../../SysTechTestTask/employee.h"
+#include "../../SysTechTestTask/employeeconfig.h"
 
 
 class Test_CoreController : public QObject
